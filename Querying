@@ -1,0 +1,45 @@
+--determine retirement eligibility for employees over 65 years old
+select first_name, last_name
+from employees
+where birth_date between "1952-01-01" and "1955-12-31";
+
+--output: 90398
+
+--find employees born in 1952
+select count(emp_no)
+from employees
+where birth_date between '1952-01-01' and '1952-12-31';
+
+--output: 21209
+
+--find employees born in 1953
+select count(emp_no)
+from employees
+where birth_date between '1953-01-01' and '1953-12-31';
+
+--output: 22857
+
+--find employees born in 1954
+select count(emp_no)
+from employees
+where birth_date between '1954-01-01' and '1954-12-31';
+
+--output: 23228
+
+--find employees born in 1955
+select count(emp_no)
+from employees
+where birth_date between '1955-01-01' and '1955-12-31';
+
+--output: 23104
+
+--add condtion of hire_date range
+select count(emp_no)
+from employees
+where (birth_date between '1952-01-01' and '1955-12-31') and (hire_date between '198-01-01' and '1988-12-31');
+
+--create new table from specified query
+select first_name, last_name
+into retirement_info
+from employees
+where (birth_date between '1952-01-01' and '1955-12-31') and (hire_date between '198-01-01' and '1988-12-31');
