@@ -51,5 +51,5 @@ CREATE TABLE titles (
 	from_date date NOT NULL,
 	to_date date NOT NULL,
 	FOREIGN KEY (emp_no) REFERENCES employees (emp_no),
-	PRIMARY KEY (emp_no, title, from_date)
+	PRIMARY KEY (emp_no, title, from_date) -- need 3 pk's b/c the table would have duplicates with only 2 pk's; can be fixed by adding unique index
 );
