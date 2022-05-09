@@ -23,7 +23,7 @@ Managers
 -
 dept_no varchar pk fk - Departments.dept_no
 emp_no int fk - Employees.emp_no
-fromt_date date
+from_date date
 to_date date
 
 Salaries
