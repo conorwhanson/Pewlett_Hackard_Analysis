@@ -1,7 +1,8 @@
 -- Use Dictinct with Orderby to remove duplicate rows, exclude employees that
 -- have left the company, and fall in retirement range (1952-1955 birthday)
 select 
-distinct on(e.emp_no) e.emp_no,
+distinct on(e.emp_no) 
+	e.emp_no,
 	e.first_name,
 	e.last_name,
 	ti.title,
