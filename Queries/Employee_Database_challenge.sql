@@ -54,15 +54,3 @@ where
 	and ti.to_date = '9999-01-01'
 order by 
 	e.emp_no, ti.to_date desc
-
--- PROF BOOTH DELV 2
-select *
-from employees as e
-join dept_emp as de on e.emp_no = de.emp_no
-join titles as ti on e.emp_no = ti.emp_no
-where
-	e.birth_date >= '1952-01-01'
-	and e.birth_date <= '1955-12-31'
-	and ti.to_date  = '9999-01-01'
-	order by e.emp_no
-limit 10
