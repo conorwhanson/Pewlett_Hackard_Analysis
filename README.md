@@ -1,6 +1,6 @@
 # Pewlett Hackard Employee Retirement Analysis
 ## Project Overview
-The purpose of this project was to help Pewlett Hackard prepare for a large exodus of retiring employees. First, we determined the number of retiring employees based on their title. Second, we as identified employees who are eligible to take part in a mentorship program prior to their future retirement. This would ensure the incoming employees would be properly trained, thereby limiting the disruption to Pewlett Hackard's operations.
+The purpose of this project was to help Pewlett Hackard prepare for a large retirement event. First, we determined the number of retiring employees based on their birth date (beginning of 1952 to end of 1955). Second, we identified the most recent titles for the retiring employees. Finally, we identified current employees with a birthday in 1965 who are eligible to take part in a mentorship program prior to their future retirement. This would ensure the incoming employees would be properly trained, thereby limiting the disruption to Pewlett Hackard's operations.
 
 ## Results
 - The positions of Senior Engineer and Senior Staff will have the largest void post retirement event. This will need to be factored into the mentorship program, as these senior positions will need to be filled by the properly trained people (presumably people in the positions directly under the senior positions).
@@ -11,7 +11,7 @@ The purpose of this project was to help Pewlett Hackard prepare for a large exod
 
 - The combined amount of Senior Engineers and Engineers retiring is quite large in comparison to all other positions.
 
-- Overall the number of employees retiring is quite large. This will, regardless of efforts by Pewlett Hackard to counter it, be disruptive and require patience to see through.
+- Overall the number of employees retiring is quite large. This will, regardless of efforts by Pewlett Hackard to counter it, be disruptive and require patience to see through. Such a disruption may be a good time to asses current practices, policies, and protocols.
 
 ## Summary
 The total number of positions needing to be filled will be 41,380. 
