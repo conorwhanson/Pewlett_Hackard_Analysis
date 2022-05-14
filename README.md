@@ -4,7 +4,8 @@ The purpose of this project was to help Pewlett Hackard prepare for a large exod
 
 ## Results
 - The positions of Senior Engineer and Senior Staff will have the largest void post retirement event (25916 and 24926 respectively). This will need to be factored into the mentorship program, as these senior positions will need to be filled by the properly trained people.
-![Retiring_by_title](GitHub link)
+
+![Retiring_by_title](https://github.com/conorwhanson/Pewlett_Hackard_Analysis/blob/main/Data/retiring_titles.png
 
 
 
