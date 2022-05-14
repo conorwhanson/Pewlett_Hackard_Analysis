@@ -1,5 +1,5 @@
 -- DELIVERABLE 1: Join Employee table and Title table conditioned on birthdate
-select distinct on (e.emp_no)
+select
 	e.emp_no,
 	e.first_name,
 	e.last_name,
@@ -15,7 +15,8 @@ where
 	and e.birth_date <= '1955-12-31'
 order by emp_no;
 
--- group by most recent employee title
+-- group by most recent employee title 
+-- to remove duplicate employees who have had multiple titles
 select distinct on (emp_no)
 emp_no,
 first_name,
