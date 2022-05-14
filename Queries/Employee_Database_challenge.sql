@@ -35,7 +35,7 @@ from unique_titles
 group by title
 order by title_count desc
 
--- Queries to find employees eligible for mentorship program
+-- DELIVERABLE 2: Queries to find employees eligible for mentorship program
 select distinct on (e.emp_no)
 	e.emp_no,
 	e.first_name,
@@ -44,6 +44,7 @@ select distinct on (e.emp_no)
 	de.from_date,
 	de.to_date,
 	ti.title
+into mentorship_eligibility
 from 
 	employees as e
 	join dept_emp as de on e.emp_no = de.emp_no
